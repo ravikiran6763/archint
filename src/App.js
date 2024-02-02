@@ -1,6 +1,6 @@
 // src/App.js
 import React, { useState } from "react";
-import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom"; // Correct import here
+import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 import {
   AppBar,
   Toolbar,
@@ -90,7 +90,7 @@ const App = () => {
       </Container>
 
       {/* Footer */}
-      <footer className="footer">
+      <Container component="footer" className="footer">
         <div className="social-links">
           <a
             href="#your-facebook-link"
@@ -109,7 +109,7 @@ const App = () => {
           {/* Add more social media links as needed */}
         </div>
         <Typography>&copy; 2024 Your Company. All rights reserved.</Typography>
-      </footer>
+      </Container>
     </Router>
   );
 };
