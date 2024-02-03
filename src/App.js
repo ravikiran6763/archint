@@ -90,26 +90,6 @@ const App = () => {
       </Container>
 
       {/* Footer */}
-      <Container component="footer" className="footer">
-        <div className="social-links">
-          <a
-            href="#your-facebook-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/facebook-icon.png" alt="Facebook" />
-          </a>
-          <a
-            href="#your-twitter-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/twitter-icon.png" alt="Twitter" />
-          </a>
-          {/* Add more social media links as needed */}
-        </div>
-        <Typography>&copy; 2024 Your Company. All rights reserved.</Typography>
-      </Container>
     </Router>
   );
 };
